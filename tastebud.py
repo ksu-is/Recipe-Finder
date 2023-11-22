@@ -1,5 +1,5 @@
-recipes =[["Recipe Name", "Ingredient 1", "Ingredient 2"],
-          ["Recipe Name 2", "Ingredient 1"]]
+recipes =[["Epic Baba Ganoush", "eggplant", "garlic","lemon juice","tahini","olive oil","parsley","salt","cumin","paprika"],
+          ["Rice Krispy Treats", "butter","marshmallow","rice krispies"]]
 ingredients = []
 
 print("Welcome to TasteBud!")
@@ -15,8 +15,21 @@ while ingredientInput != "exit":
     ingredients.append(ingredientInput)
     loopCounter = loopCounter + 1
 
-print("")
-
-
 print("Ingredients entered:"+str(ingredients))
+
+completeRecipes = []
+
+numberOfIngredients = 0
+for recipe in recipes:
+    for recipeIngredient in recipe:
+        if recipeIngredient in ingredients:
+            numberOfIngredients = numberOfIngredients + 1
+            print("Ingredient Detected "+recipeIngredient +" Ingredient number"+str(numberOfIngredients))
+    print("length of recipe "+str(len(recipe)-1))
+    print("length of recipe " + str(len(recipe) - 1))
+    if numberOfIngredients == len(recipe)-1:
+        completeRecipes.append(recipe)
+
+print("These are the complete recipes you can make: "+str(completeRecipes))
+
 

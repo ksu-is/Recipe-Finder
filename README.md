@@ -7,7 +7,7 @@ The concept of "What can I cook with what I have?" is a universal challenge that
 
 # **Who Would Use It:**
 
-    1. Home Cooks: Those looking for inspiration or trying to decide what to cook without a trip to the store.
+    1. Home Cooks: Those looking for inspiration or trying to decide what to cook based on what they have on-hand at home.
     2. Busy Professionals: Individuals who have limited ingredients and are looking for quick and easy recipes.
     3. Students: College or university students who often have minimal pantry items and seek to make the most out of them.
     

@@ -1,3 +1,4 @@
+#Recipe library organized by meal type (breakfast, lunch, dinner). Includes ingredients and instructions.
 recipes = {
     "breakfast": [
         {"name": "Pancakes", "ingredients": ["flour", "eggs", "milk", "butter", "baking powder", "vanilla extract", "syrup"], 

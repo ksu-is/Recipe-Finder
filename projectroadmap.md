@@ -1,12 +1,10 @@
 ### Sprint 1
-- [x] Create Repo
-- [x] Create Roadmap
-- [x] Create Readme.md
+- [x] Approved project topic
+- [x] Established GitHub account and joined KSU-IS organization
+- [x] Establish ownership of a code repository
+- [x] Edited and committed changes in readme.md file
+- [x] Explored existing Python code to find related project
+- [x] Update projectroadmap.md file
       
 ### Sprint 2
-- [x] Set up python file
-- [ ] code ingredient input
-- [ ] code dietary preferences
-- [ ] code recipe suggestions
-- [ ] code shopping list
-- [ ] User Ratings and Feedback
+-TBD

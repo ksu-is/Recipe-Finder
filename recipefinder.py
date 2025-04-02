@@ -169,10 +169,10 @@ recipes = {
     ]
 }
 
-# Prompt the user for their meal choice
+# Prompt the user for their meal choice (breakfast, lunch, or dinner)
 meal_type = input("What meal would you like to make? (breakfast, lunch, dinner): ").lower()
 
-# Check if meal type is valid
+# Check if meal type is valid. If it is valid, prompt the user to enter ingredients they have on hand currently. 
 if meal_type not in recipes:
     print("Invalid meal type selected.")
 else:

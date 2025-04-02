@@ -7,4 +7,6 @@
 - [x] Update projectroadmap.md file
       
 ### Sprint 2
--TBD
+- [x] Review code for additional comments needed
+- [ ] Run code in Visual Studio to test output
+- [ ] Research ways to improve code by adding one more selection of vegetarian recipes, etc. 
